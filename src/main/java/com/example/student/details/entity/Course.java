@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table
+@Table(name="t-course")
 @Getter
 @Setter
 @NoArgsConstructor

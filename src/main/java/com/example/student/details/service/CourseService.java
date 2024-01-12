@@ -3,14 +3,11 @@ package com.example.student.details.service;
 import com.example.student.details.entity.Course;
 import com.example.student.details.repoisitory.CourseRepoistory;
 import com.example.student.details.response.CourseResponse;
-import org.apache.catalina.mapper.Mapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.Optional;
 
-import static org.apache.catalina.mapper.Mapper.*;
 
 @Service
 public class CourseService {
